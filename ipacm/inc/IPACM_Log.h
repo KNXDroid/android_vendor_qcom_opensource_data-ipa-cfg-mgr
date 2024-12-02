@@ -68,15 +68,15 @@ void ipacm_log_send( void * user_data);
 static char buffer_send[MAX_BUF_LEN];
 static char dmesg_cmd[MAX_BUF_LEN];
 
-#define IPACMDBG_DMESG(fmt, ...) do{}while(0)
+#define IPACMDBG_DMESG(fmt, ...) do{}while(0);
 #define PERROR(fmt)   perror(fmt)
-#define IPACMERR_LOG(fmt, ...)   do{}while(0)
-#define IPACMDBG_H_LOG(fmt, ...) do{}while(0)
+#define IPACMERR_LOG(fmt, ...)   do{}while(0);
+#define IPACMDBG_H_LOG(fmt, ...) do{}while(0);
 #define PERROR_LOG(fmt)   perror(fmt)
-#define IPACMERR(fmt, ...)   do{}while(0)
-#define IPACMDBG_H(fmt, ...) do{}while(0)
-#define IPACMDBG(fmt, ...)	do{}while(0)
-#define IPACMLOG(fmt, ...)  do{}while(0)
+#define IPACMERR(fmt, ...)   do{}while(0);
+#define IPACMDBG_H(fmt, ...) do{}while(0);
+#define IPACMDBG(fmt, ...)	do{}while(0);
+#define IPACMLOG(fmt, ...)  do{}while(0);
 
 #ifdef __cplusplus
 }
